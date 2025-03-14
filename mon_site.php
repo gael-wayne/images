@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style2.css"/>
+        <title>tour360</title>
+        <balise id="hautdepage"></balise> 
+    </head>
+
+    <body>
+
+        <div id="bloc_page">
+
+            <header>
+
+                <div id="titre_principal">
+
+                    <div id="logo">
+                    <br>
+                        <h1>Welcome to my World in 360!</h1>    
+                    </br>
+                    </div>
+                    </div>           
+            </header>
+                <nav>
+
+                    <div id="banniere_image">
+                    <ul>
+                        <h4><a href="dnsii_voyage/index.html"><strong>DNSII</strong></a></h4>
+                        <h4><a href="photos/index.html"><strong>Photos</strong></a></h4>
+                        <h4><a href="video.html"><strong>video</strong></a></h4>
+                        <h4><a href="outils_DNSII.html"><strong>Outils</strong></a></h4>
+                    </ul></div>
+                </nav>
+   
+                </p>
+                    <section>
+                <article>
+                    <nav>
+                    <h2><img src="moi_mini.jpg" alt="Photo de moi" /></a> Je suis un autodidacte!!!!!!!</h2>
+                    <div id="presentation">
+                    <p>Après l'acquisition d'une camèra <a href="matos.html" title="mon matos"><strong>360</strong></a> et l'envie d'apprendre le développement web, </p>
+                    <p>je me mets à créer ceci</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div id="gif">
+                    <a href="matos.html" title="mon matos"><img src="360.gif" alt="360 gif"></a>
+                    </div></nav>
+                </article>
+
+                <aside>
+                    <h3><strong>A PROPOS DE MOI</strong></h3>
+                    <div id="photo_de_moi">
+                    <img src="photo_de_moi.jpg" alt="" /></div>
+                    <p>Laisse-moi le temps de me présenter : je m'appelle <strong>Gaël</strong>, et j'ai une sacré paire de C...</p>
+                    <p>Enorme, n'est-ce pas ? C'est pourquoi, aujourd'hui, j'ai décidé de faire mon site.</p>
+                    <p><strong>Seul et sans assistance</strong> grâce à des cours sur internet.</p>
+                    <p>Histoire de montrer ce dont je suis capable</p>
+                    <p>Je vous laisse imaginez si l'on me forme...</p>
+                </aside>
+
+            </section>
+
+        <footer>
+            <section>
+            <div id="email">
+            <a href="mailto:hennartg@mairie-aixenprovence.fr" title="Email" target="_blank"><img src="118.gif"></a>
+            </div>
+
+            <div id="hautdepage">
+            <a href="#hautdepage" title="hautdepage"><img src="fleche_haut.gif" alt="fleche_haut gif"></a>
+            </div>  
+            </section>
+
+        </footer>
+             
+</html>
+
+
+

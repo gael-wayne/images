@@ -1,0 +1,28 @@
+h1
+{
+
+	text-align: center;
+	font-size: 60px;
+	color: red;
+	text-shadow: 2px 2px 4px black;
+	box-shadow: 6px 6px 6px black;
+}
+h2
+{
+	text-align: center;
+	background-color: black;
+	color: white;
+
+}
+h3
+{
+	text-align: center;
+}
+a:hover
+{text-decoration: underline;
+   color: green;
+}
+a:visited
+{
+	color:black;
+}

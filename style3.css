@@ -1,0 +1,46 @@
+h1
+{
+    
+    background-image: url(hdp2.gif);
+    border-radius: 25px;
+    font-size: 1.8em;
+    text-align: center;
+    color: red;
+    text-shadow: 5px 5px 5px blue;
+    box-shadow: 0px 4px 4px #1c1a19;
+    flex-direction: row;
+    align-items: baseline;
+    margin: auto;;
+	
+}
+
+.bouton_rouge
+{
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background-color: red;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+header
+{
+    text-align: center;
+}
+#haut
+{
+    text-align: center;
+}
+@media all and (max-width: 1024px)
+{
+    header
+    {
+        width: auto;
+    }
+  

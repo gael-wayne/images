@@ -1,0 +1,154 @@
+
+
+#bloc_page
+{
+    background: url(fond.jpg);
+    width: 1500px;
+    margin: auto;}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#presentation
+{
+	font-size: 1.3em;
+	}
+
+#logo
+{
+    
+    background-color: green;
+    font-size: 1.8em;
+    text-align: justify;
+	color: red;
+	text-shadow: 5px 5px 5px black;
+	box-shadow: 0px 4px 4px #1c1a19;
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: auto;
+}
+
+#banniere_image
+{
+    text-align: center;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blue;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#gif
+{
+	text-align: center;
+}
+
+h4
+{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    text-shadow: 4px 4px 4px white;
+	box-shadow: 6px 6px 6px black;
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+h2
+{
+    background-color: red;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h1
+{
+    text-align: justify;
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    width: auto;
+    margin: auto;
+}
+
+h2
+{
+	text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article p
+{
+    font-size: 1.3em;
+}
+
+article a
+{
+	text-decoration: underline;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#photo_de_moi
+{
+    text-align: justify;
+}
+
+#photo_de_moi img
+{
+    border: 1px solid #181818;
+}
+
+aside img
+{
+    margin-right: 5px;
+}

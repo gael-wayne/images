@@ -1,0 +1,185 @@
+@media all and (orientition:portrait)
+
+#bloc_page
+{
+    background: url(fond.jpg);
+    width: 1500px;
+    margin: auto;}
+
+section h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#presentation
+{
+	font-size: 1.3em;
+	}
+
+#logo
+{
+    
+    background-image: url(hdp2.gif);
+    border-radius: 25px;
+    font-size: 1.8em;
+    text-align: justify;
+	color: red;
+	text-shadow: 5px 5px 5px blue;
+	box-shadow: 0px 4px 4px blue;
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: auto;
+}
+
+#banniere_image
+{
+    text-align: center;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(feubleu.gif);
+    position: center;
+    box-shadow: 0px 4px 4px yellow;
+    margin-bottom: 35px;
+
+}
+
+#gif
+{
+	text-align: center;
+}
+
+#email
+{
+    text-align: center;
+}
+
+h4
+{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    text-shadow: 4px 4px 4px red;
+	box-shadow: 6px 6px 6px white;
+	display: flex;
+    flex-direction: space-around;
+}
+
+h2
+{
+    background-image: url(color.gif);
+    font-size: 1.5em;
+    font-weight: justify;
+    margin: 0 0 0 10px;
+    text-align: center;
+}
+
+header h1
+{
+    text-align: justify;
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    width: auto;
+    margin: auto;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav a
+{
+    font-size: 1.3em;
+    color: #19FFAA;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: yellow;
+    border-bottom: 3px solid #760001;
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article p
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+article a
+{
+	text-decoration: underline;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+aside p
+{
+    text-align: center;
+}
+aside h3
+{
+    text-align: center;
+    font-size: 1.3em;
+}
+aside strong
+{
+    border-radius: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    color: red;
+    text-shadow: 5px 5px 5px black;
+}
+
+.bouton_rouge
+{
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background-color: red;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+footer section
+{
+    background-image: url(feubleu.gif);
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,75 @@
+#bloc_page
+{
+    background: url(fond_jaune.jpg);
+    width: 1500px;
+    margin: auto;}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+
+}
+section h1, nav a
+{
+    
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#logo
+{
+    
+    background-image: url(hdp2.gif);
+    border-radius: 25px;
+    font-size: 1.8em;
+    text-align: justify;
+    color: red;
+    text-shadow: 5px 5px 5px blue;
+    box-shadow: 0px 4px 4px blue;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: auto;
+}
+
+#banniere_image
+{
+    text-align: center;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(feubleu.gif);
+    position: center;
+    box-shadow: 0px 4px 4px yellow;
+    margin-bottom: 35px;
+}
+
+#logo h1
+{
+    text-align: center;
+}
+
+header h1
+{
+    text-align: justify;
+    font-size: 2.5em;
+    width: auto;
+    margin: auto;
+}
+
+.bouton_rouge
+{
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background-color: red;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}

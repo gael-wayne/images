@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Visite générée par l'éditeur panoVisu 
+
+             Création L.LANG      le monde à 360°  : http://lemondea360.fr
+
+             fichier image : C:\Users\HennartG\Desktop\ricoh\ricoh2\C4-2-3.JPG
+
+-->
+
+
+<scene>
+   <pano 
+      image="panos/panovisu2"
+      afftitre="oui"
+      titre2=""
+      titrePosition="center"
+      titreDecalage="10px"
+      titrePolice="Verdana"
+      titreTaillePolice="12px"
+      titreTaillePolice2="9px"
+      titreCalque="1"
+      titreTaille="100%"
+      titreFond="rgba(78,128,128,0.8)"
+      titreCouleur="#ffffff"
+      type="sphere"
+      multiReso="oui"
+      nombreNiveaux="4.0"
+      zeroNord="-180.0"
+      regardX="-180.0"
+      regardY="0"
+      minFOV="24"
+      maxFOV="140"
+      champVisuel="75"
+      autorotation="non"
+      vitesseAR="30"
+      autotour="non"
+      atBouton="non"
+      atBoutonTaille="32.0"
+      atBoutonPositionX="right"
+      atBoutonPositionY="top"
+      atBoutonOffsetX="10.0"
+      atBoutonOffsetY="10.0"
+      atCalque="1"
+      typeAT="tours"
+      limiteAT="1"
+      demarrageAT="0"
+      affinfo="oui"
+   />
+   <!--Définition de la Barre de navigation-->
+   <boutons 
+      styleBoutons="navigation"
+      couleur="rgba(255,255,255,0)"
+      bordure="rgba(255,255,255,0)"
+      deplacements="oui" 
+      zoom="oui" 
+      outils="oui"
+      fs="oui" 
+      souris="oui" 
+      rotation="oui" 
+      positionX="center"
+      positionY="bottom" 
+      barreCCalque="1"
+      dX="0.0" 
+      dY="10.0"
+      espacement="4"
+      visible="oui"
+   />
+<!--  Bouton Suivant Precedent -->
+    <suivantPrecedent
+        suivPrecCalque="1"
+        suivant="xml/panovisu3.xml"            
+        precedent="xml/panovisu1.xml"            
+    />    
+<!--  Bouton de Masquage -->
+    <marcheArret 
+        affiche="non"
+        image="MA.png"
+        taille="30.0"
+        positionY="top"
+        positionX="right"
+        opacite="0.8"
+        dX="20.0"
+        dY="20.0"
+        navigation="oui"
+        boussole="oui"
+        titre="oui"
+        plan="oui"
+        reseaux="oui"
+        masquageCalque="1"
+        vignettes="oui"
+        combo="oui"
+        suivPrec="oui"
+        hotspots="oui"
+    />
+    <!--Définition des hotspots-->  
+   <hotspots>
+      <point 
+           type="panoramique"
+           long="-112.62385321100916"
+           lat="-5.449541284403665"
+           tailleHS="25px"
+           image="panovisu/images/hotspots/hotspot.png"
+           xml="xml/panovisu10.xml"
+           regardX="0.0"
+           regardY="0.0"
+           champVisuel="50.0"
+           info=""
+           anime="false"
+      />
+      <point 
+           type="panoramique"
+           long="-217.32110091743118"
+           lat="-18.0"
+           tailleHS="25px"
+           image="panovisu/images/hotspots/hotspot.png"
+           xml="xml/panovisu3.xml"
+           regardX="0.0"
+           regardY="0.0"
+           champVisuel="50.0"
+           info=""
+           anime="false"
+      />
+      <point 
+           type="panoramique"
+           long="-25.10091743119267"
+           lat="-32.86238532110093"
+           tailleHS="25px"
+           image="panovisu/images/hotspots/hotspot.png"
+           xml="xml/panovisu1.xml"
+           regardX="0.0"
+           regardY="0.0"
+           champVisuel="50.0"
+           info=""
+           anime="false"
+      />
+   </hotspots>
+
+<!-- Définition des images de fond -->
+
+</scene>

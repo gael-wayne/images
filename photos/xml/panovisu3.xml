@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Visite générée par l'éditeur panoVisu 
+
+             Création L.LANG      le monde à 360°  : http://lemondea360.fr
+
+             fichier image : C:\Users\HennartG\Desktop\html2\images\photos\panovisu12.jpg
+
+-->
+
+
+<scene>
+   <pano 
+      image="panos/panovisu3"
+      afftitre="non"
+      titrePosition="center"
+      titreDecalage="10px"
+      titrePolice="Verdana"
+      titreTaillePolice="12px"
+      titreTaillePolice2="9px"
+      titreCalque="1"
+      titreTaille="100%"
+      titreFond="rgba(0,0,0,0.8)"
+      titreCouleur="#ffffff"
+      type="sphere"
+      multiReso="oui"
+      nombreNiveaux="4.0"
+      zeroNord="-180.0"
+      regardX="-180.0"
+      regardY="0"
+      minFOV="24"
+      maxFOV="140"
+      champVisuel="75"
+      autorotation="non"
+      vitesseAR="30"
+      autotour="non"
+      atBouton="non"
+      atBoutonTaille="32.0"
+      atBoutonPositionX="right"
+      atBoutonPositionY="top"
+      atBoutonOffsetX="10.0"
+      atBoutonOffsetY="10.0"
+      atCalque="1"
+      typeAT="tours"
+      limiteAT="1"
+      demarrageAT="0"
+      affinfo="oui"
+   />
+<!--  Bouton Suivant Precedent -->
+    <suivantPrecedent
+        suivPrecCalque="1"
+        suivant="xml/panovisu4.xml"            
+        precedent="xml/panovisu2.xml"            
+        afficheSuivantPrecedent="oui"            
+    />    
+<!--  Bouton de Masquage -->
+    <marcheArret 
+        affiche="non"
+        image="MA.png"
+        taille="30.0"
+        positionY="top"
+        positionX="right"
+        opacite="0.8"
+        dX="20.0"
+        dY="20.0"
+        navigation="oui"
+        boussole="oui"
+        titre="oui"
+        plan="oui"
+        reseaux="oui"
+        masquageCalque="1"
+        vignettes="oui"
+        combo="oui"
+        suivPrec="oui"
+        hotspots="oui"
+    />
+<!-- Barre des vignettes -->    <vignettes 
+        affiche="oui"
+        tailleImage="120.0"
+        fondCouleur="rgba(0,0,0,0.8)"
+        texteCouleur="#ffffff"
+        couleurPanoActif="#00ffff"
+        opacite="1.0"
+        vignettesCalque="1"
+        position="bottom"
+    >
+        <imageVignette 
+            image="panos/panovisu1Vignette.jpg"
+            xml="xml/panovisu1.xml"
+            panoActif="non"
+            infoBulle=""
+        />
+        <imageVignette 
+            image="panos/panovisu2Vignette.jpg"
+            xml="xml/panovisu2.xml"
+            panoActif="non"
+            infoBulle=""
+        />
+        <imageVignette 
+            image="panos/panovisu3Vignette.jpg"
+            xml="xml/panovisu3.xml"
+            panoActif="oui"
+            infoBulle=""
+        />
+        <imageVignette 
+            image="panos/panovisu4Vignette.jpg"
+            xml="xml/panovisu4.xml"
+            panoActif="non"
+            infoBulle=""
+        />
+        <imageVignette 
+            image="panos/panovisu0Vignette.jpg"
+            xml="xml/panovisu0.xml"
+            panoActif="non"
+            infoBulle=""
+        />
+    </vignettes>       
+<!-- Barre des comboMenu -->    <comboMenu 
+        affiche="oui"
+        positionX="left"
+        positionY="top"
+        dX="10.0"
+        comboCalque="1"
+        dY="10.0"
+    >
+        <imageComboMenu 
+            image="panos/panovisu1Vignette.jpg"
+            xml="xml/panovisu1.xml"
+            titre=""
+            sousTitre=""
+        />
+        <imageComboMenu 
+            image="panos/panovisu2Vignette.jpg"
+            xml="xml/panovisu2.xml"
+            titre=""
+            sousTitre=""
+        />
+        <imageComboMenu 
+            image="panos/panovisu3Vignette.jpg"
+            selectionne="selected"
+            xml="xml/panovisu3.xml"
+            titre=""
+            sousTitre=""
+        />
+        <imageComboMenu 
+            image="panos/panovisu4Vignette.jpg"
+            xml="xml/panovisu4.xml"
+            titre=""
+            sousTitre=""
+        />
+        <imageComboMenu 
+            image="panos/panovisu0Vignette.jpg"
+            xml="xml/panovisu0.xml"
+            titre=""
+            sousTitre=""
+        />
+    </comboMenu>       
+    <!--Définition des hotspots-->  
+   <hotspots>
+   </hotspots>
+
+<!-- Définition des images de fond -->
+
+    <imageFond
+        fichier="images/moi.jpg"
+        posX="center" 
+        posY="top" 
+        offsetX="0.0" 
+        offsetY="0.0" 
+        tailleX="72" 
+        tailleY="72" 
+        opacite="0.8" 
+        cible="interne" 
+        calque="1"
+        masquable="oui" 
+        url="" 
+        infobulle="" 
+    />
+</scene>

@@ -88,6 +88,20 @@ header h1
     text-decoration: none;
 }
 
+.bouton_bleu
+{
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background-color: blue;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
 article nav
 {
     text-align: center;
